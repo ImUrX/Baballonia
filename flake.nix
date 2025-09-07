@@ -1,6 +1,8 @@
 {
   # These need to be the same commit as local submodules!!!!!
   inputs = {
+    self.submodules = true;
+
     hypertext = {
       flake = false;
       url = "github:dfgHiatus/HyperText.Avalonia/8a16a6bcce40344ce77a386cf212ca742819c5ad";
